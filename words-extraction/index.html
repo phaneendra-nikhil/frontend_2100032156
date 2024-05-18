@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Highlight Long Words</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Text Highlighter</h1>
+      <div class="controls">
+        <input
+          type="number"
+          id="wordLength"
+          placeholder="Enter word length"
+          min="1"
+        />
+        <button id="highlightButton">Highlight</button>
+      </div>
+      <p id="paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nobis
+        voluptatum aut consectetur quo totam facere tenetur nihil. Iure porro
+        id, in beatae voluptas recusandae odit esse illum incidunt earum
+        consequuntur rerum, nobis accusantium nisi dolorem magnam
+        necessitatibus. Laborum vitae recusandae, aut maiores maxime est
+        laboriosam praesentium perspiciatis iure natus? Sunt voluptatibus, cum
+        iusto molestiae nemo dolore rerum accusantium soluta cumque maxime!
+        Possimus laboriosam consequuntur, necessitatibus quos sint quisquam.
+        Necessitatibus.
+      </p>
+      <div id="wordCount" class="word-count">
+        Highlighted: 0 / 72
+      </div>
+      
+    </div>
+    <div id="toast" class="toast">
+      No words found with the specified length.
+    </div>
+    <div class="info-boxx">
+      <p><strong>Name:</strong> Phaneendra Nikhil</p>
+      <p><strong>Regd no:</strong> 2100032156</p>
+      <p><strong>University:</strong> KLU</p>
+      <p><strong>Faculty guide:</strong> Pavan kumar</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
