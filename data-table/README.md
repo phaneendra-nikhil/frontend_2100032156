@@ -1,8 +1,24 @@
-# React + Vite
+## Project 2: Interactive Data Table (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Description
+The Interactive Data Table is a web application developed using React.js that allows users to sort columns, filter rows, and paginate results efficiently. It provides a smooth user experience, even with large datasets.
 
-Currently, two official plugins are available:
+### Features
+- Sorting columns alphabetically or numerically.
+- Filtering rows based on specific criteria.
+- Pagination for easy navigation through results.
+- Developed using React.js for dynamic functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Usage
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Run the development server using `npm start`.
+4. Open the application in a web browser.
+
+### Preview
+![Interactive Data Table Preview](project2.png)
+
+### Author
+Phaneendra Nikhil
+
+
