@@ -26,7 +26,7 @@ This repository contains three web development projects built using different te
 
 1. Clone the repository: ```https://github.com/phaneendra-nikhil/frontend_2100032156.git```
 
-2. Navigate to each project directory (`dynamic-form-builder`, `interactive-data-table`, `text-highlighter`) and follow the respective usage instructions in their README files.
+2. Navigate to each project directory (`dynamic-form-generate`, `data-table`, `word-extraction`) and follow the respective usage instructions in their README files.
 
 ## Author
 
